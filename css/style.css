@@ -1,0 +1,76 @@
+body{
+    font-family: "Roboto" sans-serif;
+}
+.cabecalho{
+    background-color: #0e0027;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container .produtos{
+    display: flex;
+    justify-content: center;
+    color: #6528d3;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    letter-spacing: 2px;
+}
+
+.container .filtros{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+.container .categoria-cartas, .preco-cartas{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+    
+.container label{
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #0e0027;
+}
+.container .categoria-cartas select, .container .preco-cartas input{
+    padding: 16px 13px;
+    border-radius: 2px;
+    border: 2px solid #6528d3;
+    color:  #120234;
+    height: 52px;
+
+}
+.container select:focus, .container input:focus,
+.container select:focus-visible,
+.container input:focus-visible{
+    outline: none;
+}
+
+.container select.categoria{
+    appearance: none;
+    background: url(../imagens/seta-para-baixo.png) 97% center no-repeat;
+}
+
+.container .filtros .btn-filtrar{
+    border: none;
+    background-color: #6528d3;
+    color:  #ededed;
+    padding: 16px 32px;
+    font-weight: 500;
+    align-items: end;
+    width: 177px;
+    height: 52px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0,3s;
+
+
+}
