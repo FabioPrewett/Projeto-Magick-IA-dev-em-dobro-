@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* faz com o que nao seja adicionado tamanhos extras, somente os que definimos*/
+    box-sizing: border-box; 
 }
 
 ul{
